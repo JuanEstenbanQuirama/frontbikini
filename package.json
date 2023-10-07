@@ -1,0 +1,52 @@
+{
+  "name": "front-bikini-app",
+  "version": "0.0.1",
+  "description": "fit App",
+  "productName": "Bikini App",
+  "author": "jquiramaIDT <jquirama@infinitydigitaltechs.com>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "build": "quasar build",
+    "build-watch": "quasar build -d -m spa"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.2.3",
+    "clear": "^0.1.0",
+    "jquery": "^3.6.4",
+    "jwt-decode": "^3.1.2",
+    "lodash": "^4.17.21",
+    "pinia": "^2.0.11",
+    "pinia-plugin-persistedstate": "^3.1.0",
+    "popper.js": "^1.16.1",
+    "quasar": "^2.6.0",
+    "sweetalert2": "^11.7.1",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0",
+    "vue3-cookies": "^1.0.6",
+    "vue3-datepicker": "^0.3.4",
+    "yarn": "^1.22.19",
+    "yup": "^0.31.0"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^1.0.0",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.14",
+    "pug": "^3.0.2",
+    "workbox-build": "^6.5.4",
+    "workbox-cacheable-response": "^6.5.4",
+    "workbox-core": "^6.5.4",
+    "workbox-expiration": "^6.5.4",
+    "workbox-precaching": "^6.5.4",
+    "workbox-routing": "^6.5.4",
+    "workbox-strategies": "^6.5.4"
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
